@@ -1,7 +1,7 @@
 #include <stdlib.h>
-#include <heure.h>
+#include <time.h>
 
-int main()
+int main(void)
 {
 	int n;
 
@@ -20,3 +20,4 @@ int main()
 		printf(" is zero\n");
 	}
 	return (0);
+}
