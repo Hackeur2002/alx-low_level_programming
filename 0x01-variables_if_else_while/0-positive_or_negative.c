@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-int negative_or_positive_or_zero(void)
+int main(void)
 {
 	int n;
 
