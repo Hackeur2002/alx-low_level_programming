@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - puts
- * This function main run using the puts like function of output
- */
+ *     *     *main - Entry point
+ *     *     *Return: Always 0 (Success)
+ **/
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
