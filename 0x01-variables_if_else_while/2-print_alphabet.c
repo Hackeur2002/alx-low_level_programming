@@ -14,7 +14,7 @@ int main(void)
 	for(n='a'; n < 'z'; n++)
 	{
 		putchar(n);
-		if (n = 'y')
+		if (n == 'y')
 		{
 			putchar('z');
 		}
