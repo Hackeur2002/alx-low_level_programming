@@ -10,7 +10,6 @@
 int main(void)
 {
 	int n; 
-	int first; 
 	int last;
 
 	srand(time(0));
@@ -27,7 +26,7 @@ int main(void)
 	{
 		printf("%d and is 0", last);
 	}
-	else if (last < 6 && last != 0)
+	else if ((last < 6) && (last != 0))
 	{
 		printf("%d and is less than 6 and not 0", last);
 	}
