@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*
+/**
  * main - puts
- * Return : 0
+ * This function main run using the puts like function of output
  */
 int main(void)
 {
