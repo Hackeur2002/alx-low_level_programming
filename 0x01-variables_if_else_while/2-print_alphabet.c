@@ -16,8 +16,8 @@ int main(void)
 		putchar(n);
 		if (n == 'y')
 		{
-			putchar('z\n');
+			putchar('z');
 		}
 	}
-	return (0);
+	return (0); 
 }
