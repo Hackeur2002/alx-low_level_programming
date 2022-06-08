@@ -3,6 +3,7 @@
 #include <ctype.h>
 /**
  * _islower-"The program check the lower alphabet followed by a new line"
+ * @c: "The character to check"
  * File: "2-islower.c"
  * Return: "Always 0 (Success)
  */
