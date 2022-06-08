@@ -1,15 +1,28 @@
 #include "main.h"
+#include <unistd.h>
 /**
  * * * main - Entry point
- * * * _putchar_retour - Simply function
+ * * * _putchar - writes the character c to stdout
+ * * * @c: The character to print
+ *
+ * * * Return: On success 1.
+ * * * On error, -1 is returned, and error is set appropriately
  * * * Return: Always 0 (Success)
  * **/
-string _putchar_retour()
+int _putchar_(char c)
 {
-	return (_putchar);
+	return (write(1, &c, 1));
 }
 int main(void) 
 {
-	_putchar_retour();
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	Return 0;
 }
