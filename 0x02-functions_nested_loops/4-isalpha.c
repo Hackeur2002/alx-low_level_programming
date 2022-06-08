@@ -2,7 +2,7 @@
 #include <unistd.h>
 #include <ctype.h>
 /**
- * _islower-"The program check if the alphabet is lower or upper followed by a new line"
+ * _isalpha-"The program check the alphabet"
  * @c: "The character to check"
  * File: "4-isalpha.c"
  * Return: "Always 0 (Success)
