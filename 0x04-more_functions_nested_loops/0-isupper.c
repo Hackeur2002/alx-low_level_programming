@@ -8,7 +8,7 @@
  * Returns: 0 f is not upper
  * */
 
-int _isupper(int c)
+int _isupper(char c)
 {
 	if (isupper(c))
 	{
