@@ -3,6 +3,7 @@
 
 /**
  * reset_to_98-"This pogram reset the variable with pointers"
+ * @n: Le pointer
  * return: nothing
  */
 
