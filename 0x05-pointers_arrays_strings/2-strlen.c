@@ -4,7 +4,7 @@
 /**
  * _strlen-"This pogram reset the variable with pointers"
  * @s: Le pointer
- * return: "Always 0 (Success)"
+ * Return: "Always 0 (Success)"
  */
 
 int _strlen(char *s)
