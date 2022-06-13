@@ -7,7 +7,7 @@
  * return: lenght of a pointer
  */
 
-void swap_int(char *s)
+int _strlen(char *s)
 {
 	return (strlen(*s));
 }
