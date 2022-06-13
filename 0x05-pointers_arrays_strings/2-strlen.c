@@ -9,10 +9,9 @@
 
 int _strlen(char *s)
 {
-	char c[];
+	char c[] = *s;
 	int compteur;
 
-	c[] = *s;
 	compteur = strlen(c);
 	return (compteur);
 }
