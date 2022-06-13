@@ -4,7 +4,7 @@
 /**
  * _strlen-"This pogram reset the variable with pointers"
  * @s: Le pointer
- * return: lenght of a pointer
+ * return: strlen(s)
  */
 
 int _strlen(char *s)
