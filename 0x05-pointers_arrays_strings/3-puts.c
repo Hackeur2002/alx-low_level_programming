@@ -7,7 +7,7 @@
  * Return: "Always 0 (Success)"
  */
 
-void puts(char *str)
+void _puts(char *str)
 {
 	puts(str);
 }
