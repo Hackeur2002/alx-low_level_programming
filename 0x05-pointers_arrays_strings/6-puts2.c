@@ -10,11 +10,13 @@
 void puts2(char *str)
 {
 	int i, t;
+	char *b;
 
 	t = strlen(str);
-	*str[t+1] = "\0";
+	b = &str[t+1];
+	*b = "\0";
 
-	for(i = 0; i <= t; i = i+2)
+	for(i = 0; i <= t+1; i = i+2)
 	{
 		printf("%c",str[i]);
 	}
