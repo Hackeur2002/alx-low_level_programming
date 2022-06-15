@@ -2,15 +2,15 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * _isupper-"this program check if character is upper"
+ * _isdigit-"this program check if character is upper"
  * @c: the number to check
  * Returns: 1 if is upper
  * Returns: 0 f is not upper
  * */
 
-int _isupper(char c)
+int _isdigit(int c)
 {
-	if (isupper(c) == true)
+	if (isdigit(c) == true)
 	{
 		return (1);
 	}
