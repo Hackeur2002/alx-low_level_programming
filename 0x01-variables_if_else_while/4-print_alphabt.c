@@ -11,7 +11,7 @@ int main(void)
 {
 	char n;
 
-	for (n = 'a'; n <= 'z' && n != 'q' && n != 'e'; n++)
+	for (n = 'a'; 'a' >= n < 'e' && 'f' >= n < 'q' && 'r' >= n <= 'z'; n++)
 	{
 		putchar(n);
 	}
