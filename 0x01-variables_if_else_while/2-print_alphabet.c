@@ -11,13 +11,10 @@ int main(void)
 {
 	char n;
 	
-	for(n='a'; n < 'z'; n++)
+	for(n='a'; n <= 'z'; n++)
 	{
 		putchar(n);
-		if (n == 'y')
-		{
-			putchar('z');
-		}
 	}
+	
 	return (0); 
 }
