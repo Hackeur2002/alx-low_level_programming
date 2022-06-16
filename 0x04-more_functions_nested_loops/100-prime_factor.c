@@ -20,7 +20,7 @@ int main(void)
 			n /= 2;
 			continue;
 		}
-		for (div = 3; div < (n /2); div += 2)
+		for (div = 3; div < (n / 2); div += 2)
 		{
 			if ((n % div) == 0)
 				n /= div;
