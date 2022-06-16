@@ -8,9 +8,9 @@
  * Returns: 0 f is not upper
  * */
 
-int _isupper(char c)
+int _isupper(int c)
 {
-	if (isupper(c) == true)
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
