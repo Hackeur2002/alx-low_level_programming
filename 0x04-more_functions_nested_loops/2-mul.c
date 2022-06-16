@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <ctype.h>
+#include <stdlib.h>
 /**
  * mul-"this program multiplie deux nombres"
  * @a: the number to check

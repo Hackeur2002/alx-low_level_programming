@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <ctype.h>
+#include <stdlib.h>
 /**
  * print_numbers-"this program check if character is upper"
  * File: 3-print_numbers
