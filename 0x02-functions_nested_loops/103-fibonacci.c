@@ -24,7 +24,7 @@ int main(void)
 		f1 = f2;
 		f2 = add;
 	}
-	printf("%10.0f\n", i);
+	printf("%.7f\n", i);
 
 	return (0);
 
