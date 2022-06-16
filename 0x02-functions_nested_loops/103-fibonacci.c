@@ -13,7 +13,6 @@ int main(void)
 {
 	float i;
 	unsigned long f1, f2, add;
-
 	
 	while (1)
 	{
@@ -22,7 +21,6 @@ int main(void)
 			break;
 		if ((add % 2) == 0)
 			i += add;
-		
 		f1 = f2;
 		f2 = add;
 	}
