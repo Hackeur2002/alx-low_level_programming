@@ -15,7 +15,7 @@ int main(void)
 	unsigned long f1, f2, add;
 
 	
-	While (1)
+	while (1)
 	{
 		add = f1 + f2;
 		if (add > 4000000)
