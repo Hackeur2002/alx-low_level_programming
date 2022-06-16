@@ -14,11 +14,11 @@ int main(void)
 	
 	for (n = 0; n < 10; n++)
 	{
-		putchar(n);
+		printf("%d", n);
 	}
 	for (m = 'a'; m <= 'f'; m++)
 		putchar(m);
-
+	
 	putchar('\n');
 	return (0);
 }
