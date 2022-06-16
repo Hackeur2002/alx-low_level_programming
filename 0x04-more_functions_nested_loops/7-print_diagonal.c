@@ -5,7 +5,7 @@
  * print_diagonal-"this program print diagonal"
  * @n: the numbers
  * File: 7-print_diagonal
- * */
+ */
 
 void print_diagonal(int n)
 {
@@ -13,7 +13,7 @@ void print_diagonal(int n)
 
 	if (n > 0)
 	{
-		for (i = 0; i <= n; i++)
+		for (i = 0; i < n; i++)
 		{
 			for (j = 0; j < i; j++)
 				_putchar(' ');
