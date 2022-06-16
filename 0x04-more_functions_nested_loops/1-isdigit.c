@@ -5,7 +5,7 @@
  * _isdigit-"this program check if character is upper"
  * @c: the number to check
  * Return: 1 if is digit
- * */
+ */
 
 int _isdigit(int c)
 {
