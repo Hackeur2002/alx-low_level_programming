@@ -19,7 +19,7 @@ int main(void)
 	for (i = 0; i < 50; i++)
 	{
 		add = f1 + f2;
-		printf("%lu", add)
+		printf("%lu", add);
 		
 		f1 = f2;
 		f2 = add;
