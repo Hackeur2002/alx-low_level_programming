@@ -4,8 +4,7 @@
 /**
  * _isupper-"this program check if character is upper"
  * @c: the number to check
- * Returns: 1 if is upper
- * Returns: 0 f is not upper
+ * Return: 1 if is upper
  * */
 
 int _isupper(int c)
