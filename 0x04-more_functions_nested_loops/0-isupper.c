@@ -5,7 +5,7 @@
  * _isupper-"this program check if character is upper"
  * @c: the number to check
  * Return: 1 if is upper
- * */
+ */
 
 int _isupper(int c)
 {
