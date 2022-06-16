@@ -9,13 +9,19 @@
 
 int main(void)
 {
-	char n;
-
-	for (n = 'a'; n <= 'z'; n++)
+	int n;
+	
+	for (n = 0; n <= 9; n++)
 	{
-		if (n != 'e' && n != 'q')
-			putchar(n);
+		putchar((n % 10) + '0');
+		if (n == 9)
+			continue;
+
+		putchar(',');
+		putchar(' ');
 	}
+	
 	putchar('\n');
+	
 	return (0);
 }
