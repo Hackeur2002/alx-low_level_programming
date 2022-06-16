@@ -14,6 +14,8 @@ int main(void)
 	float i;
 	unsigned long f1, f2, add;
 	
+	f1 = 0;
+	f2 = 1;
 	while (1)
 	{
 		add = f1 + f2;
@@ -24,7 +26,7 @@ int main(void)
 		f1 = f2;
 		f2 = add;
 	}
-	printf("%.7f\n", i);
+	printf("%.0f\n", i);
 
 	return (0);
 
