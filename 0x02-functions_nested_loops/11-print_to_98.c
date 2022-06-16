@@ -2,6 +2,7 @@
 #include <unistd.h>
 #include <ctype.h>
 #include <stdlib.h>
+#include <stdio.h>
 /**
  * print_to_98-"print all numbers from 98"
  * @n: the number
