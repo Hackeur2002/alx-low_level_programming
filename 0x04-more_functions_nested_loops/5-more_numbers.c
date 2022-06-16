@@ -16,6 +16,7 @@ void more_numbers(void)
 		{
 			if (nu > 9)
 				_putchar((nu / 10) + '0');
+			_putchar((nu % 10) + '0');
 		}
 		_putchar('\n');
 	}
