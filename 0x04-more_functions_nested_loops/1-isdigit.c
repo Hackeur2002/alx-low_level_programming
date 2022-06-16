@@ -4,8 +4,7 @@
 /**
  * _isdigit-"this program check if character is upper"
  * @c: the number to check
- * Returns: 1 if is upper
- * Returns: 0 f is not upper
+ * Return: 1 if is digit
  * */
 
 int _isdigit(int c)
