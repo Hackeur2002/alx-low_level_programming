@@ -1,11 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 #include <ctype.h>
+#include <stdlib.h>
 /**
  * main-"this program print square"
  * File: 9-fizz_buzz
  * Return: Always 0
- * */
+ */
 
 int main(void)
 {
@@ -21,8 +22,6 @@ int main(void)
 			printf("Buzz");
 		else
 			printf("%d", i)
-
-				
 		if (num == 100)
 			continue;
 		printf(" ");
