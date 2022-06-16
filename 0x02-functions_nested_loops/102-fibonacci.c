@@ -20,7 +20,6 @@ int main(void)
 	{
 		add = f1 + f2;
 		printf("%lu", add);
-		
 		f1 = f2;
 		f2 = add;
 		if (i == 49)
