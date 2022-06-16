@@ -4,7 +4,7 @@
 /**
  * more_numbers-"this program print more numbers"
  * File: 4-print_most_numbers
- * */
+ */
 
 void more_numbers(void)
 {
@@ -14,8 +14,8 @@ void more_numbers(void)
 	{
 		for (nu = 0; nu <= 14; nu++)
 		{
-			if (n != 2 && n != 4)
-				_putchar((n % 10) + '0');
+			if (nu > 9)
+				_putchar((nu / 10) + '0');
 		}
 		_putchar('\n');
 	}

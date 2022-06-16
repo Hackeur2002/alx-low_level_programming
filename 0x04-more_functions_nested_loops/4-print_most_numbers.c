@@ -4,7 +4,7 @@
 /**
  * print_most_numbers-"this program print most numbers"
  * File: 4-print_most_numbers
- * */
+ */
 
 void print_most_numbers(void)
 {

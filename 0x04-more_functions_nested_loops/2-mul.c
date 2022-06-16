@@ -7,7 +7,7 @@
  * @a: the number to check
  * @b: the second number
  * Return: The result of the multiplication
- * */
+ */
 
 int mul(int a, int b)
 {
