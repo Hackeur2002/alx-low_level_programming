@@ -5,7 +5,7 @@
 /**
  * print_numbers-"this program check if character is upper"
  * File: 3-print_numbers
- * */
+ */
 
 void print_numbers(void)
 {
