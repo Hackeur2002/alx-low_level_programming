@@ -4,6 +4,8 @@
 
 /**
  * _strcat-"The concatene fonction and it's a pointer"
+ * @dest: first pointer
+ * @src: second pointer
  * Return: a pointer
  */
 char *_strcat(char *dest, char *src)
