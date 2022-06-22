@@ -7,7 +7,7 @@
  * @c: first pointe
  * Return: lettters uppercase
  */
-char *string_toupper(char  *c)
+char *string_toupper(char *c)
 {
 	return (toupper(c));
 }
