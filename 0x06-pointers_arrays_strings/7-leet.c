@@ -17,10 +17,10 @@ char *leet(char *c)
 	{
 		for (j = 0; j <= 7; j++)
 		{
-
-		if (c[i] == b[j] ||
-		c[i] - 32 == b[j])
-			c[i] = j - 32;
+			if (c[i] == b[j] ||
+			c[i] - 32 == b[j])
+				c[i] = j - 32;
+		}
 	}
 	return (c);
 }
