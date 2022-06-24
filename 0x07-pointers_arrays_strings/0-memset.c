@@ -5,7 +5,7 @@
  * @s: le tableau à pointer
  * @b: ce qu'il faut insérer
  * @n: le nombre de fois où l'insérer
- * Return: a pointer 
+ * Return: a pointer
  */
 char *_memset(char *s, char b, unsigned int n)
 {
