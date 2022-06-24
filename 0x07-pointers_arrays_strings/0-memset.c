@@ -9,6 +9,6 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	memset(s, '0x01', 95);
+	memset(s, b, n);
 	return (s);
 }
