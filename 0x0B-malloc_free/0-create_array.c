@@ -6,7 +6,7 @@
  * @c: le caratère
  * Return: a ponter to the array or NULL
  */
-char *create_arry(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	char *t;
 	unsigned int i;
