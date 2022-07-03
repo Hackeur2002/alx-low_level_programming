@@ -1,22 +1,15 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strchr-cette fonction permet de rechercher une occurence
+ * _strspn-cette fonction permet de rechercher une occurence
  * @s: le tableau dans lequel on recherche
- * @c: ce qu'il faut rechercher
+ * @accept: ce qu'il faut rechercher
  * Return: a pointer sur dest
  */
-char *_strchr(char *s, char c)
+unsigned int *_strchr(char *s, char *accept)
 {
-	char *p;
+	unsigned int retour;
 
-	p = strchr(s, c);
-	if (p == NULL)
-	{
-		return (NULL);
-	}
-	else
-	{
-		return (p);
-	}
+	retour = strspn(s, accept);
+	return (retour);
 }
