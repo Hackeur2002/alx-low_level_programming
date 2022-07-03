@@ -6,7 +6,7 @@
  * @accept: ce qu'il faut rechercher
  * Return: a pointer sur dest
  */
-unsigned int *_strchr(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int retour;
 
