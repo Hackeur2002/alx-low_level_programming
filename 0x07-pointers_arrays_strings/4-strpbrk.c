@@ -6,7 +6,7 @@
  * @accept: ce qu'il faut rechercher
  * Return: a pointer sur dest
  */
-char _strpbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	char retour;
 
