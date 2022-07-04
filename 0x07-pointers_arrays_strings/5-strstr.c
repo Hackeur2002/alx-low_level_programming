@@ -6,7 +6,7 @@
  * @needle: ce qu'il faut rechercher
  * Return: a pointer sur dest
  */
-char *_strstr(char *haysatck, char *needle)
+char *_strstr(char *haystack, char *needle)
 {
 	char *retour;
 
