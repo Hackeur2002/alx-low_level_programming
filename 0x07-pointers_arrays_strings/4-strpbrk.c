@@ -11,5 +11,12 @@ char *_strpbrk(char *s, char *accept)
 	char retour;
 
 	retour = strpbrk(s, accept);
-	return (retour);
+	if (retour != NULL)
+	{
+		return (retour);
+	}
+	else
+	{
+		return (NULL);
+	}
 }
