@@ -7,10 +7,13 @@
  */
 int _racine(int n, int x)
 {
-	if (x * (n / x) == n)
-		return (x);
-	else
-		return (-1);
+	if (x % (n / x) == 0)
+	{
+		if (x * (n / x) == n)
+			return (x);
+		else
+			return (-1);
+	}
 	return (0 + _racine(n, x + 1));
 }
 /**
