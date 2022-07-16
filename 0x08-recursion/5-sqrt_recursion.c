@@ -23,8 +23,8 @@ int _sqrt_recursion(int n)
  */
 int _racine(int n, int x)
 {
-	if (c * (n / c) == n)
-		return (c);
+	if (x * (n / x) == n)
+		return (x);
 	else
 		return (-1);
 	return (0 + _racine(n, x + 1));
