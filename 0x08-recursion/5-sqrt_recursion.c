@@ -1,5 +1,18 @@
 #include "main.h"
-
+/**
+ * _racine - racine
+ * @n:the number
+ * @x:other number
+ * Return: racine carré du nombre
+ */
+int _racine(int n, int x)
+{
+	if (x * (n / x) == n)
+		return (x);
+	else
+		return (-1);
+	return (0 + _racine(n, x + 1));
+}
 /**
  * _sqrt_recursion - print recursion string
  * @n:number
@@ -14,18 +27,4 @@ int _sqrt_recursion(int n)
 	if (n == 1)
 		return (1);
 	return (_racine(n, 2));
-}
-/**
- * _racine-racine
- * @n:the number
- * @x:other number
- * Return: racine carré du nombre
- */
-int _racine(int n, int x)
-{
-	if (x * (n / x) == n)
-		return (x);
-	else
-		return (-1);
-	return (0 + _racine(n, x + 1));
 }
