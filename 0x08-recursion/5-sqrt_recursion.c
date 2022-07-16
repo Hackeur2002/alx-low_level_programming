@@ -7,19 +7,25 @@
  */
 int _sqrt_recursion(int n)
 {
-	int a;
-
-	a = n * n;
 	if (n < 0)
-	{
 		return (-1);
-	}
-	else if (n ==0)
+	if (n == 0)
 		return (0);
-	else if (a != n)
-	{
-		return (1 * _sqrt_recursion(n / 2));
-	}
+	if (n == 1)
+		return (1);
+	return (_racine(n, 2));
+}
+/**
+ * _racine-racine
+ * @n:the number
+ * @x:other number
+ * Return: racine carré du nombre
+ */
+int _racine(int n, int x)
+{
+	if (c * (n / c) == n)
+		return (c);
 	else
-		return (a);
+		return (-1);
+	return (0 + _racine(n, x + 1));
 }
