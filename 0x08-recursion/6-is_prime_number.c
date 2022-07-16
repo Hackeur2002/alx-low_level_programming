@@ -15,6 +15,7 @@ int _premier(int n, int x)
 			return (0);
 	}
 	return (0 + _premier(n, x + 1));
+}
 /**
  * is_prime_number - print recursion string
  * @n:number
