@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * _puts_recursion - print recursion string
  * @s:the string
  * Return: nothing
