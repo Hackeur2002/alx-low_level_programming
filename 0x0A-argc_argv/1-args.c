@@ -1,13 +1,12 @@
 #include <stdio.h>
-#include "main.h"
 /**
- * main - prints the name
- * @argc: number of argument
- * @argv: un tablea
- * Return: 0 Always
+ * main - prints its name
+ * @argc: la taille du tableau
+ * @argv: le tableau en question
+ * Return: Always 0
  */
 int main(int argc, char *argv[] __attribute__((unused)))
 {
-	printf("%s\n", argc - 1);
+	printf("%d\n", argc - 1);
 	return (0);
 }
