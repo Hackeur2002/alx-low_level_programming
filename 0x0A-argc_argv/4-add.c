@@ -9,9 +9,14 @@
  */
 int main(int argc, char *argv[])
 {
-	for (int i = 1; i < argc; i++)
+	int i;
+	int j;
+	int compteur;
+
+	compteur = 0;
+	for (i = 1; i < argc; i++)
 	{
-		for (int j = 0; argv[i][j] != '\0'; j++)
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
 			if (!isdigit(argv[i][j]))
 			{
@@ -19,7 +24,7 @@ int main(int argc, char *argv[])
 				return (1);
 			}
 		}
-		int compteur += atoi(argv[i]);
+		compteur += atoi(argv[i]);
 	}
 	printf("%d\n", compteur);
 	return (0);
