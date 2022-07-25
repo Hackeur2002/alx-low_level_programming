@@ -1,1 +1,1 @@
-bit manipulation code 
+this is bit manipulation code 
